@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 490" width="100%" height="100%">
+    <!-- Symbol Group -->
+    <g id="logoSymbol" transform="translate(0, 5)">
+        <!-- Left Cross Outline (Red) -->
+        <path d="M 215,110 L 140,110 L 140,200 L 50,200 L 50,280 L 140,280 L 140,370 L 215,370" 
+              stroke="#B91C1C" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+        
+        <!-- Right Cross Outline (Navy Blue) -->
+        <path d="M 255,110 L 330,110 L 330,200 L 420,200 L 420,280 L 330,280 L 330,370 L 255,370" 
+              stroke="#0F2A4A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+        <!-- Red Serpentine Wave (Left) -->
+        <path d="M 220,360 C 170,295 260,225 210,120" 
+              stroke="#B91C1C" stroke-width="18" stroke-linecap="round" fill="none" />
+
+        <!-- Navy Serpentine Wave (Right) -->
+        <path d="M 250,120 C 300,185 210,255 260,360" 
+              stroke="#0F2A4A" stroke-width="18" stroke-linecap="round" fill="none" />
+    </g>
+
+    <!-- Logo Typography -->
+    <text x="235" y="425" font-family="'Outfit', 'Inter', sans-serif" font-size="34" font-weight="800" fill="#B91C1C" text-anchor="middle" letter-spacing="1">SPECXS CARE</text>
+    <text x="235" y="465" font-family="'Outfit', 'Inter', sans-serif" font-size="30" font-weight="800" fill="#0F2A4A" text-anchor="middle" letter-spacing="3.5">LIMITED</text>
+</svg>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the Specxs Smart Bladder Device: a revolutionary, non-invasive electro-modulation wearable for treating urinary incontinence, VVF, and retention.">
+    <title>Specxs Care Limited | Smart Bladder Device</title>
+    <link rel="stylesheet" href="styles.css?v=4.0">
+</head>
+<body>
+    <!-- Glowing Cyber HUD Background Decorations -->
+    <div class="cyber-background-decorations">
+        <div class="cyber-dna-bg"></div>
+        <div class="cyber-ekg-bg"></div>
+        <div class="cyber-nodes-bg"></div>
+    </div>
+
+
+    <!-- Header Navigation -->
+    <header class="header" id="mainHeader">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="nav-logo" id="logoLink">
+                Specxs Care<span>Limited</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" id="homeLink">Home</a>
+                <a href="about.html" class="nav-link" id="aboutLink">About Us</a>
+                <div class="nav-dropdown">
+                    <div class="nav-item-dropdown">
+                    <a href="product.html" class="nav-link active" id="productLink">Our Projects <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="product.html#bladderSection">Smart Bladder</a>
+                        <a href="product.html#cisrsSection">CISRS Model</a>
+                        <a href="product.html#kidneySection">Digital Kidney Wallet</a>
+                    </div>
+                </div>
+                    <div class="dropdown-content">
+                        <a href="product.html#bladderSection">Smart Bladder Device</a>
+                        <a href="product.html#cisrsSection">CISRS</a>
+                        <a href="product.html#kidneySection">Digital Kidney Wallet</a>
+                    </div>
+                </div>
+                <a href="media.html" class="nav-link" id="mediaLink">Media & Gallery</a>
+                <a href="careers.html" class="nav-link" id="careersLink">Careers</a>
+                <a href="contact.html" class="nav-link" id="contactLink">Contact Us</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Product Hero / Overview -->
+    <section class="hero" id="productHero" style="min-height: auto; padding-top: 140px; padding-bottom: 60px;">
+        <div class="container hero-wrapper">
+            <div class="hero-text">
+                <span class="section-tag">Our Portfolio</span>
+                <h1 class="hero-title" style="font-size: 3rem;">Innovative <span>Healthcare Projects</span></h1>
+                <p class="hero-desc">
+                    Specxs Care Limited is committed to harnessing technology, artificial intelligence, and biomedical innovation to improve health outcomes, strengthen healthcare systems, and expand access to quality care for underserved populations.
+                </p>
+                <div class="hero-buttons" style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <a href="#bladderSection" class="btn btn-primary" id="btnToBladder" style="padding: 12px 24px;">Smart Bladder</a>
+                    <a href="#cisrsSection" class="btn btn-secondary" id="btnToCisrs" style="padding: 12px 24px; border: 1px solid var(--border-color); background: transparent; color: var(--white);">CISRS Model</a>
+                    <a href="#kidneySection" class="btn btn-secondary" id="btnToKidney" style="padding: 12px 24px; border: 1px solid var(--border-color); background: transparent; color: var(--white);">Digital Kidney Wallet</a>
+                </div>
+            </div>
+            <div class="hero-visual" id="heroVisual">
+                <div class="device-container">
+                    <div class="device-glow" style="background: radial-gradient(circle, rgba(185, 28, 28, 0.3) 0%, transparent 60%);"></div>
+                    <div class="device-orbit">
+                        <div class="device-node node-1"></div>
+                        <div class="device-node node-2"></div>
+                        <div class="device-node node-3"></div>
+                    </div>
+                    <!-- Brand logo inside moving rings -->
+                    <div style="position: absolute; z-index: 2; width: 170px; height: 170px; border-radius: 50%; background-color: var(--white); box-shadow: var(--hover-shadow); border: 2px solid var(--border-color); display: flex; justify-content: center; align-items: center; padding: 25px; transition: var(--transition);" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="logo.jpg" alt="Specxs Care Limited Official Logo" style="width: 100%; height: 100%; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 1: Smart Bladder Device -->
+    <section class="section" style="background-color: var(--light-bg); padding-top: 60px; padding-bottom: 20px; border-top: 1px solid var(--border-color);" id="bladderSection">
+        <div class="container">
+            <div class="section-title-wrapper" style="margin-bottom: 0;">
+                <span class="section-tag">Project 01</span>
+                <h2 class="section-title">The Specxs Smart Bladder Device</h2>
+                <p class="section-subtitle">A non-invasive, wireless electro-modulation wearable designed to restore normal bladder function and muscle coordination.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specifications -->
+    <section class="section" style="background-color: var(--light-section);" id="specsSection">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag">Specifications</span>
+                <h2 class="section-title">Ergonomic & Wireless Design</h2>
+                <p class="section-subtitle">Engineered for discreet wear, comfort, and clinical effectiveness under everyday conditions.</p>
+            </div>
+            <div class="prod-specs-grid">
+                <div class="spec-visual" style="display: flex; justify-content: center;">
+                    <!-- Beautiful CSS representation of application area -->
+                    <div style="background-color: var(--light-bg); padding: 40px; border-radius: 20px; text-align: center; border: 1px solid var(--border-color); max-width: 450px;">
+                        <h4 style="margin-bottom: 15px; color: var(--white);">Application Areas</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px;">The device is designed for easy abdominal or pelvic application using comfortable, adjustable elastic straps.</p>
+                        <div style="width: 100%; height: 200px; background-color: var(--light-section); border: 1px solid var(--border-color); border-radius: 12px; display: flex; justify-content: center; align-items: center; color: var(--white); position: relative; overflow: hidden;">
+                            <div style="position: absolute; width: 80px; height: 80px; border: 2px dashed var(--accent-red); border-radius: 50%; display: flex; justify-content: center; align-items: center; animation: pulse 2s infinite alternate;">
+                                <div style="width: 25px; height: 20px; background-color: var(--white); border-radius: 4px; box-shadow: 0 0 10px var(--accent-red);"></div>
+                            </div>
+                            <span style="font-size: 0.8rem; font-weight: bold; position: absolute; bottom: 15px; color: var(--text-dark);">Pelvic / Abdominal Placement</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="spec-info-list">
+                    <div class="spec-item">
+                        <div class="spec-num">01</div>
+                        <div class="spec-details">
+                            <h4>Ultra-Light & Ergonomic</h4>
+                            <p>Weighing only 1.8 grams, the device features a compact frame measuring 5 cm by 3.8 cm, designed for comfortable, long-term discreet wear.</p>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-num">02</div>
+                        <div class="spec-details">
+                            <h4>100% Wireless Technology</h4>
+                            <p>No visible external wires or skin-penetrating electrodes. Low-level electrical impulses stimulate the nerve pathway non-invasively.</p>
+                        </div>
+                    </div>
+                    <div class="spec-item">
+                        <div class="spec-num">03</div>
+                        <div class="spec-details">
+                            <h4>Adjustable Compression Straps</h4>
+                            <p>Features adjustable, hypoallergenic straps to keep the stimulation module firmly in place during physical activity or rest.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incontinence Treatment Areas -->
+    <section class="section" style="background-color: var(--light-bg);" id="treatmentSection">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag">Clinical Applications</span>
+                <h2 class="section-title">Types of Incontinence Treated</h2>
+                <p class="section-subtitle">Restoring pelvic health and muscle co-ordination for a wide range of clinical diagnoses.</p>
+            </div>
+            <div class="incont-grid">
+                <div class="incont-card">
+                    <h3>Stress Incontinence</h3>
+                    <p>Supports bladder control and prevents leaks during physical activities, laughing, coughing, or stress. Validated primarily in adult populations.</p>
+                </div>
+                <div class="incont-card">
+                    <h3>Urgency Incontinence</h3>
+                    <p>Effectively manages sudden, intense urges to urinate by calming hyper-reactive bladder nerves via gentle electrical stimulation.</p>
+                </div>
+                <div class="incont-card">
+                    <h3>Overflow Incontinence</h3>
+                    <p>Aids in nerve re-sensitization to prevent passive leaking from an overfilled or under-active bladder system.</p>
+                </div>
+                <div class="incont-card">
+                    <h3>Urinary Retention</h3>
+                    <p>Promotes and stimulates contractions in the bladder wall muscles, helping patients who struggle to fully empty their bladder.</p>
+                </div>
+                <div class="incont-card">
+                    <h3>Complete Incontinence (VVF)</h3>
+                    <p>Indicated for severe conditions, including Vesico-Vaginal Fistula (VVF), depending on clinical severity and doctor recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Trials Data Dashboard -->
+    <section class="section" style="background-color: var(--light-bg);" id="trialsSection">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag">Data Dashboard</span>
+                <h2 class="section-title">Clinical Trial Results</h2>
+                <p class="section-subtitle">Evidence-based results demonstrating the therapeutic efficacy of Specxs electro-stimulation.</p>
+            </div>
+            <div class="dashboard-grid">
+                <div class="chart-container">
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar-label">
+                            <span>Bladder sensitivity increase (Adult Males)</span>
+                            <strong>62%</strong>
+                        </div>
+                        <div class="chart-bar-bg">
+                            <div class="chart-bar-fill" data-percentage="62" id="barMale"></div>
+                        </div>
+                    </div>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar-label">
+                            <span>Bladder function increase (Adult Females)</span>
+                            <strong>69%</strong>
+                        </div>
+                        <div class="chart-bar-bg">
+                            <div class="chart-bar-fill" data-percentage="69" id="barFemale"></div>
+                        </div>
+                    </div>
+                    <div class="chart-bar-wrapper">
+                        <div class="chart-bar-label">
+                            <span>Overall Patient Satisfaction Rate</span>
+                            <strong>79%</strong>
+                        </div>
+                        <div class="chart-bar-bg">
+                            <div class="chart-bar-fill" data-percentage="79" id="barSat"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trials-text-summary">
+                    <h3 style="font-size: 1.6rem; margin-bottom: 16px;">Key Findings & Patient Outcomes</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 16px;">
+                        Clinical trials confirm that the Specxs Smart Bladder Device triggers a substantial reduction in leakage events while boosting patient confidence and overall quality of life.
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: 24px;">
+                        Failures or non-responses were rare. Minimal improvements were mostly documented in patients suffering from advanced secondary neuropathy caused by diabetes, stroke, or chronic hypertension.
+                    </p>
+                    <div class="safety-note" id="safetyPanel">
+                        <h4><span>⚠</span> Safety & Skin Sensitization Note</h4>
+                        <p>
+                            About 20% of volunteers reported mild skin rashes or itching at the contact point. Subsequent clinical evaluations confirmed that skin sensitivity thresholds differ; some patients require lower impulse thresholds, which can be adjusted on the device.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 2: CISRS Section -->
+    <section class="section" style="background-color: var(--light-section); border-top: 1px solid var(--border-color);" id="cisrsSection">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag">Project 02: Public Health Integration</span>
+                <h2 class="section-title">Community-Integrated Snakebite Response System (CISRS)</h2>
+                <p class="section-subtitle">Saving lives, bridging communities, and strengthening health systems through cultural integration and digital tracking.</p>
+            </div>
+            
+            <div class="prod-specs-grid" style="align-items: flex-start; gap: 40px;">
+                <div class="spec-info-list" style="flex: 1.2;">
+                    <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 1.05rem; line-height: 1.7;">
+                        The <strong>Community-Integrated Snakebite Response System (CISRS)</strong> introduces a novel, community-driven approach to snakebite management by formally integrating traditional healers into the healthcare system. Rather than bypassing existing cultural practices, it leverages them to improve early response, safety, and hospital referrals.
+                    </p>
+                    
+                    <h3 style="color: var(--white); margin-bottom: 16px; font-size: 1.3rem;">Three Key Pillars of Innovation:</h3>
+                    
+                    <div class="spec-item" style="margin-bottom: 20px;">
+                        <div class="spec-num">01</div>
+                        <div class="spec-details">
+                            <h4>Integration Model (Traditional Healer Training)</h4>
+                            <p>Training and certifying traditional healers as first responders. Rather than competing, this bridges the gap between informal community practices and formal medical facilities, ensuring a "do no harm" approach and immediate patient stabilization.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="spec-item" style="margin-bottom: 20px;">
+                        <div class="spec-num">02</div>
+                        <div class="spec-details">
+                            <h4>Decentralized Treatment (PHC Upgrades)</h4>
+                            <p>Expanding access to quality, temperature-controlled antivenom directly to Primary Healthcare Centres (PHCs). This minimizes treatment delays and reduces the dependency on distant, over-burdened referral hospitals.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="spec-item" style="margin-bottom: 24px;">
+                        <div class="spec-num">03</div>
+                        <div class="spec-details">
+                            <h4>Digital Tracking & Surveillance</h4>
+                            <p>Deploying simple, low-cost mobile tracking tools to enable real-time reporting of bites, envenomation severity, and antivenom inventory. This improves surveillance, resource mapping, and response efficiency in low-resource settings.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="background: rgba(6, 182, 212, 0.05); padding: 18px; border-radius: 12px; border: 1px solid rgba(6, 182, 212, 0.2); margin-top: 20px;">
+                        <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+                            <strong>A Highly Adaptable Model:</strong> This culturally sensitive, cost-effective approach is highly adaptable to similar public health contexts across Africa and other low-resource regions facing high-risk snakebite emergencies.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="spec-visual" style="flex: 1; display: flex; flex-direction: column; gap: 20px; width: 100%;">
+                    <!-- Diagram 1: CISRS Concept Design -->
+                    <div style="background-color: var(--light-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border-color); box-shadow: var(--shadow);">
+                        <div style="font-size: 0.8rem; font-weight: 700; color: var(--white); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                            <span style="display: inline-block; width: 8px; height: 8px; background-color: var(--accent-red); border-radius: 50%;"></span>
+                            CISRS Model: From Bite to Recovery
+                        </div>
+                        <img src="cisrs_concept_design.jpg" alt="CISRS Concept Design Flowchart" style="width: 100%; border-radius: 8px; border: 1px solid var(--border-color); display: block; filter: brightness(0.95); transition: var(--transition);" onmouseover="this.style.filter='brightness(1.05)'" onmouseout="this.style.filter='brightness(0.95)'">
+                        <div style="margin-top: 10px; font-size: 0.75rem; color: var(--text-muted); text-align: center;">
+                            Flowchart depicting patient pathways from community contact to satellite treatment and specialist care.
+                        </div>
+                    </div>
+                    
+                    <!-- Diagram 2: Climate-Resilient CR-CSRS -->
+                    <div style="background-color: var(--light-bg); padding: 15px; border-radius: 16px; border: 1px solid var(--border-color); box-shadow: var(--shadow);">
+                        <div style="font-size: 0.8rem; font-weight: 700; color: var(--white); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                            <span style="display: inline-block; width: 8px; height: 8px; background-color: var(--accent-red); border-radius: 50%;"></span>
+                            Climate-Resilient Extension (CR-CSRS)
+                        </div>
+                        <img src="cr_csrs_climate_resilient.jpg" alt="Climate-Resilient CR-CSRS Diagram" style="width: 100%; border-radius: 8px; border: 1px solid var(--border-color); display: block; filter: brightness(0.95); transition: var(--transition);" onmouseover="this.style.filter='brightness(1.05)'" onmouseout="this.style.filter='brightness(0.95)'">
+                        <div style="margin-top: 10px; font-size: 0.75rem; color: var(--text-muted); text-align: center;">
+                            Climate-health extension framework mapping risk forecasting, alerts, and seasonal prevention.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project 3: Digital Kidney Wallet Section -->
+    <section class="section" style="background-color: var(--light-bg); border-top: 1px solid var(--border-color);" id="kidneySection">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-tag">Project 03: AI Diagnostics & Sensing</span>
+                <h2 class="section-title">Digital Kidney Wallet</h2>
+                <p class="section-subtitle">An innovative, low-cost digital health solution designed for kidney disease prevention and early detection.</p>
+            </div>
+            
+            <div class="prod-specs-grid" style="align-items: center;">
+                <div class="spec-visual" style="display: flex; justify-content: center;">
+                    <div style="background-color: var(--light-section); padding: 20px; border-radius: 20px; border: 1px solid var(--border-color); width: 100%; max-width: 450px; box-shadow: var(--shadow);">
+                        <img src="digital_kidney_wallet.jpg" alt="Digital Kidney Wallet Device and Sensor" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.4); border: 1px solid var(--border-color); display: block;">
+                        <div style="margin-top: 15px; text-align: center; font-size: 0.85rem; color: var(--text-muted);">
+                            Specxs Digital Kidney Wallet Wearable and Diagnostic Sensor System
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="spec-info-list">
+                    <p style="color: var(--text-muted); margin-bottom: 18px; font-size: 1rem; line-height: 1.6;">
+                        The <strong>Digital Kidney Wallet</strong> is an innovative, low-cost digital health solution designed to strengthen kidney disease prevention, early detection, and long-term management. Leveraging mobile technology, the platform securely stores kidney screening results, generates personalized health reminders, and provides lifestyle guidance to support continuous patient engagement and care.
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: 18px; font-size: 1rem; line-height: 1.6;">
+                        Each user is assigned a secure digital health record that can be accessed by both patients and healthcare providers, helping to bridge critical gaps in kidney health monitoring and follow-up care.
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 1rem; line-height: 1.6;">
+                        Beyond traditional screening, the Digital Kidney Wallet incorporates a sensor-enabled diagnostic system capable of detecting heavy metals associated with kidney damage, combined with an Artificial Intelligence (AI)-powered risk assessment platform. The system identifies individuals at elevated risk of developing kidney disease and provides predictive insights based on health indicators and lifestyle patterns. This enables early intervention, personalized prevention strategies, and proactive disease management before irreversible kidney damage occurs.
+                    </p>
+                    
+                    <div style="background: rgba(255, 51, 102, 0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255, 51, 102, 0.2); box-shadow: var(--shadow);">
+                        <h4 style="margin-bottom: 10px; color: var(--white); display: flex; align-items: center; gap: 8px;">
+                            <span style="color: var(--accent-red);">🤝</span> Partnership & Collaboration Opportunities
+                        </h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; margin: 0;">
+                            Together, these innovations reflect Specxs Care Limited's commitment to harnessing technology, artificial intelligence, and biomedical innovation to improve health outcomes, strengthen healthcare systems, and expand access to quality care for underserved populations. The company is seeking partnerships with investors, healthcare institutions, governments, development organizations, and technology partners to accelerate deployment and maximize impact.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="mainFooter">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="nav-logo" style="color: var(--white); margin-bottom: 20px;">
+                    Specxs Care<span>Limited</span>
+                </a>
+                <p class="footer-desc">
+                    Indigenous pioneering digital healthcare and innovation leveraging AI and advanced biomedical devices to transform lives.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Our Projects</a></li>
+                    <li><a href="media.html">Media & News</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Values</h4>
+                <ul class="footer-links" style="pointer-events: none;">
+                    <li>Adaptability</li>
+                    <li>Integrity</li>
+                    <li>Innovation</li>
+                    <li>Sustainability</li>
+                    <li>Craftsmanship</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p class="footer-desc" style="margin-bottom: 10px;">Email: info@specxscare.ng</p>
+                <p class="footer-desc">Head Office: Abuja, Nigeria</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Specxs Care Limited. All Rights Reserved.</p>
+            <p>Designed for Universal Health Coverage</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
